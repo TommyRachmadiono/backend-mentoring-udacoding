@@ -28,6 +28,9 @@ Route::get('dictionaries', 'DictionaryController@index');
 Route::resource('notes', 'NoteController');
 Route::get('notes-by-user/{user_id}', 'NoteController@getNotesByUser');
 
+Route::resource('categories', 'CategoryController');
+Route::resource('products', 'ProductController');
+
 Route::resource('employees', 'EmployeeController');
 // Route::get('employees', 'EmployeeController@index');
 // Route::post('employee', 'EmployeeController@store');
