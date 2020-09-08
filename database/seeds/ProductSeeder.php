@@ -53,7 +53,7 @@ class ProductSeeder extends Seeder
             'description' => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, explicabo?",
             'quantity' => 5,
             'category_id' => 3,
-            'image' => "ga2100.jpg",
+            'image' => "alba2.jpg",
         ]);
         DB::table('products')->insert([
             'name' => 'Casio C',
