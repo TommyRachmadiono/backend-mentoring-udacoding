@@ -30,6 +30,9 @@ Route::get('notes-by-user/{user_id}', 'NoteController@getNotesByUser');
 
 Route::resource('categories', 'CategoryController');
 Route::resource('products', 'ProductController');
+Route::get('youtube-videos/{user_id}', 'YoutubeVideoController@index');
+Route::get('liked-videos/{user_id}', 'YoutubeVideoController@getLikedVideos');
+Route::post('like-video', 'YoutubeVideoController@likeVideo');
 
 Route::resource('employees', 'EmployeeController');
 // Route::get('employees', 'EmployeeController@index');

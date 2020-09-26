@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call('DictionarySeeder');
         $this->call('CategorySeeder');
         $this->call('ProductSeeder');
+        $this->call('YoutubeVideoSeeder');
         // $this->call([
         //     DictionarySeeder::class,
         //     UserSeeder::class,
